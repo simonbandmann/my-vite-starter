@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.light {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.go {
+  background: rgb(4, 111, 4);
+}
+
+.slow {
+  background: rgba(255, 204, 0);
+}
+
+.stop {
+  background: rgb(118, 15, 15);
+}
+
+.light:not(.active) {
+  opacity: 0.2;
+}
+
+
